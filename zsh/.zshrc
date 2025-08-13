@@ -92,6 +92,10 @@ ZSH_TMUX_FIXTERM=true
 export ZSH_TMUX_CONFIG="$HOME/.tmux.conf"
 #}}}
 
+if [[ -f $HOME/.zprofile ]]; then
+	source $HOME/.zprofile
+fi
+
 # Antigen bundle configurations {{{
 # Ensure $ZSHDATADIR exists.
 __ensure_dir_exists $ZSHDATADIR

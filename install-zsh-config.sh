@@ -1,5 +1,6 @@
 #! /usr/bin/env zsh
 
+cp -f -v ./zsh/.zprofile ~
 cp -f -v ./zsh/.zshenv ~/.zshenv
 mkdir -p -v ~/.zsh
 cp -f -v ./zsh/.zshrc ~/.zsh/.zshrc
