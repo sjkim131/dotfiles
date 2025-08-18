@@ -514,7 +514,7 @@ LOGCHECK=60
 WATCHFMT="[%B%t%b] %B%n%b has %a %B%l%b from %B%M%b"
 
 # grep color setting
-export GREP_COLOR='1;31'
+export GREP_COLOR='mt=1;31'
 
 # Use vim to browse man pages. One can use Ctrl-] and Ctrl-t
 # to browse and return from referenced man pages. ZZ or q to quit.
